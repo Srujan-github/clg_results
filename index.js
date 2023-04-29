@@ -1,5 +1,5 @@
 
- function fun(){
+ async function fun(){
     let hallNo=document.getElementById('input').value;
     
     fetch(`https://results-restapi.up.railway.app/all-r18/${hallNo}`).then((data)=>{
