@@ -2,7 +2,7 @@
  async function fun(){
     let hallNo=document.getElementById('input').value;
     
-    fetch(`https://cors-anywhere.herokuapp.com/https://results-restapi.up.railway.app/all-r18/${hallNo}`).then((data)=>{
+    fetch(`https://results-restapi.up.railway.app/all-r18/${hallNo}`).then((data)=>{
     let gson;
     // console.log(data.status);    
     gson=data.json() 
